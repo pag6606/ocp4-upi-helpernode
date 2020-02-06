@@ -33,7 +33,7 @@ Then prepare for the install
 
 ```
 yum -y install ansible git
-git clone https://github.com/christianh814/ocp4-upi-helpernode
+git clone https://github.com/pag6606/ocp4-upi-helpernode
 cd ocp4-upi-helpernode
 ```
 
