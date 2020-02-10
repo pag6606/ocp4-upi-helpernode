@@ -3,7 +3,7 @@ disk: sda
 helper:
   name: "helper"
   ipaddr: "192.168.0.6"
-  networkifacename: "ens33"
+  networkifacename: "ens160"
 dns:
   domain: "kruger.local"
   clusterid: "ocp4"
@@ -33,11 +33,11 @@ masters:
     macaddr: "52:54:00:d5:1c:39"
 workers:
   - name: "worker0"
-    ipaddr: "192.168.7.11"
+    ipaddr: "192.168.0.11"
     macaddr: "52:54:00:f4:26:a1"
   - name: "worker1"
-    ipaddr: "192.168.7.12"
+    ipaddr: "192.168.0.12"
     macaddr: "52:54:00:82:90:00"
   - name: "worker2"
-    ipaddr: "192.168.7.13"
+    ipaddr: "192.168.0.13"
     macaddr: "52:54:00:8e:10:34"
