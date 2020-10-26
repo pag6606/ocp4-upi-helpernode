@@ -5,7 +5,7 @@ helper:
   ipaddr: "192.168.0.6"
   networkifacename: "ens160"
 dns:
-  domain: "kruger.local"
+  domain: "LNXGYE00DA45"
   clusterid: "ocp4"
   forwarder1: "192.168.0.6"
   forwarder2: "8.8.8.8"
